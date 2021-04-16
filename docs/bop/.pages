@@ -8,13 +8,13 @@ nav:
     - basics.md
     - operators_and_expressions.md
     - control_flow.md
-    - functions.md
-    - modules.md
-    - data_structures.md
-    - problem_solving.md
-    - object_oriented_programming.md
-    - input_output.md
-    - exceptions.md
-    - standard_library.md
-    - more.md
-    - what_next.md
+    #- functions.md
+    #- modules.md
+    #- data_structures.md
+    #- problem_solving.md
+    #- object_oriented_programming.md
+    #- input_output.md
+    #- exceptions.md
+    #- standard_library.md
+    #- more.md
+    #- what_next.md
