@@ -1,7 +1,7 @@
 {
   "name": "py3dev.ru",
   "version": "1.0.0",
-  "description": "Site with web documentations",
+  "description": "Site with Python 3 documentations",
   "devDependencies": {
     "@prettier/plugin-xml": "^0.12.0",
     "prettier": "^2.1.2"

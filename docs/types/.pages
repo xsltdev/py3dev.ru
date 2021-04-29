@@ -1,0 +1,8 @@
+title: Типы данных
+nav:
+    - index.md
+    - number.md
+    - string.md
+    - list.md
+    - dict.md
+    - set.md
