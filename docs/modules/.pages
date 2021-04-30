@@ -1,0 +1,6 @@
+title: Модули
+nav:
+    - index.md
+    - math.md
+    - cmath.md
+    - random.md
