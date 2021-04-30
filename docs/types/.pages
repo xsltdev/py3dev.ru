@@ -6,3 +6,7 @@ nav:
     - list.md
     - dict.md
     - set.md
+    - tuple.md
+    - byte.md
+    - function.md
+    - file.md
