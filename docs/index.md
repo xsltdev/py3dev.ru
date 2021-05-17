@@ -18,10 +18,10 @@ hide:
 
 <div class="cell" markdown="1">
 
-[Типы](/types/index.md)
+[Типы](types/index.md)
 : Типы данных в Python 3
 
-[Модули](/modules/index.md)
+[Модули](modules/index.md)
 : Основные модули в Python 3. Описание модулей и перевод документации к ним
 
 </div>
