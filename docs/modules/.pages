@@ -8,3 +8,5 @@ nav:
     - os.md
     - datetime.md
     - time.md
+    - array.md
+    - sys.md
