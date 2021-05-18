@@ -4,3 +4,5 @@ nav:
     - math.md
     - cmath.md
     - random.md
+    - json.md
+    - os.md
