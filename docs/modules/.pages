@@ -6,3 +6,5 @@ nav:
     - random.md
     - json.md
     - os.md
+    - datetime.md
+    - time.md
