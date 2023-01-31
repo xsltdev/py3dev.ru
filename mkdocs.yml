@@ -22,6 +22,7 @@ theme:
     logo: python.svg
 
 extra:
+    generator: false
     social:
         - icon: fontawesome/brands/html5
           link: 'https://hcdev.ru/'
