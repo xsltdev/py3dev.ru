@@ -67,7 +67,6 @@ markdown_extensions:
 plugins:
     - search:
           separator: '[\s\-\:]+'
-          prebuild_index: true
           lang:
               - ru
               - en
@@ -76,4 +75,4 @@ plugins:
     - social
 
 extra_css:
-    - '/assets/stylesheets/styles.css'
+    - '/assets/stylesheets/styles.css?2'
