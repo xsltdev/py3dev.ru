@@ -11,13 +11,27 @@ theme:
     name: material
     custom_dir: overrides
     palette:
-        primary: indigo
-        accent: indigo
+        - media: '(prefers-color-scheme: light)'
+          scheme: default
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Тёмная тема
+        - media: '(prefers-color-scheme: dark)'
+          scheme: slate
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/toggle-switch
+              name: Светлая тема
     language: ru
     features:
         - navigation.tabs
         - navigation.tracking
         - navigation.instant
+        - navigation.top
+        - content.action.edit
     favicon: python.svg
     logo: python.svg
 
@@ -76,4 +90,4 @@ plugins:
     - social
 
 extra_css:
-    - '/assets/stylesheets/styles.css?2'
+    - '/assets/stylesheets/styles.css?3'
