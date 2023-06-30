@@ -32,6 +32,7 @@ theme:
         - navigation.instant
         - navigation.top
         - content.action.edit
+        - announce.dismiss
     favicon: python.svg
     logo: python.svg
 

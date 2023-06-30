@@ -1,7 +1,22 @@
 {% extends "base.html" %}
 
+<!-- Announce -->
+{% block announce %}
+<img
+	src="https://lesta.ru/favicon.ico"
+	style="vertical-align: text-bottom; width: 20px"
+/>
+Вакансия
+<a
+	href="https://hh.ru/vacancy/82437309?hhtmFrom=py3dev"
+	style="color: deepskyblue; font-weight: 700"
+	>Python Developer</a
+>
+(Мир Танков, Минск) {% endblock %}
+
 <!-- Page title -->
-{% block htmltitle %} {% if page and page.meta and page.meta.title %}
+{% block htmltitle %} {% if page and page.meta and
+page.meta.title %}
 <title>
 	{{ page.meta.title }} ⚡️ Python 3 с примерами кода
 </title>
@@ -10,10 +25,12 @@
 	{{ page.title }} ⚡️ Python 3 с примерами кода
 </title>
 {% else %}
-<title>Справочник Python-разработчика с примерами кода</title>
+<title>
+	Справочник Python-разработчика с примерами кода
+</title>
 {% endif %} {% endblock %}
 
 <!-- Link to source file -->
-{% block source %} {% if page and page.meta and page.meta.source %} {% include
-"partials/source-link.html" %} {% endif %}
-{% endblock %}
+{% block source %} {% if page and page.meta and
+page.meta.source %} {% include "partials/source-link.html"
+%} {% endif %} {% endblock %}
