@@ -2,7 +2,7 @@ site_name: Python 3
 site_url: https://py3dev.ru/
 site_description: Справочник Python-разработчика с примерами кода
 site_author: py3dev.ru
-copyright: (C) 2021-2023, Справочник python-разработчика с примерами кода
+copyright: (☭) Народное достояние с 2021 года
 
 repo_name: 'Справочник на Github'
 repo_url: 'https://github.com/xsltdev/py3dev.ru'
@@ -33,7 +33,6 @@ theme:
         - navigation.instant
         - navigation.top
         - content.action.edit
-        - announce.dismiss
     favicon: python.svg
     logo: python.svg
 
